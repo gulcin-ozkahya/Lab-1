@@ -21,6 +21,10 @@ return student;
 throw new Exception("There is no student with the given name!");
 }
 }
+/**
+*a method that will return all the
+*students whose name matches the given name.
+ */
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
 Exception {
 ArrayList<Student> result = new ArrayList<Student>();
